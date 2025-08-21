@@ -10,7 +10,6 @@ header {
   height: 100px;
   background: linear-gradient(90deg, rgb(6, 75, 23), rgb(10, 110, 15));
   margin-top: 0;
-  width: 100%;
   align-items: center;
 
 }
@@ -141,3 +140,4 @@ footer {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 
 }
+
