@@ -8,15 +8,26 @@ header {
   display: flex;
   justify-content: flex-start;
   height: 100px;
-  background: linear-gradient(90deg, rgb(3, 148, 39), rgb(10, 110, 15));
+  background: linear-gradient(90deg, rgb(6, 75, 23), rgb(10, 110, 15));
   margin-top: 0;
+  width: 100%;
+  align-items: center;
+
 }
 
-header img{
-  object-fit: cover;
-  object-position: left;
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   
 }
+
+
+  header svg {
+    width: 100px;
+    height: 200px;
+    fill: white;
+  }
 
 .alinhaTitle {
   margin-left: 20px;
@@ -29,12 +40,13 @@ header img{
 }
 
 footer {
-  display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  text-align: center;
   background: linear-gradient(90deg, rgb(3, 148, 39), rgb(10, 110, 15));
-  margin-top: 0;
+  margin-top: auto;
+  padding: 50px;
 }
 
 .login_form {
@@ -56,6 +68,8 @@ footer {
   padding: 175px 0px 99px;
   background-color: #0e8d3e;
   width: 100%;
+  position: relative;
+  flex: 1;   
 
 }
 
