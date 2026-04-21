@@ -28,7 +28,7 @@ function bemVindo(event) {
     }
     divBemVindo.textContent = `Bem-vindo, ${nome}!`;
   setTimeout(() => {
-            window.location.href = "https://vpn.sede.unimedmaranhaodosul.coop.br:4443/";
+            window.location.href = "https://suporteti.unimedmaranhaodosul.coop.br/public/auth/signin";
         }, 1000);
     }, 2000);
 
